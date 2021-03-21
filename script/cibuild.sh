@@ -29,7 +29,11 @@ mkdir gh-pages
 cd gh-pages
 git clone https://${GH_TOKEN}@github.com/gregVader/gregvader.github.io.git --branch gh-pages
 cd gregvader.github.io
-rm -rf !(.git)
+
+mv ./.git ../
+rm -rf *
+mv ../.git .
+
 cp -r ../../main/gregvader.github.io/_site/* .
 
 # push
