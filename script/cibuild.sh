@@ -10,8 +10,8 @@ fi
 set -e
 
 # cleanup "_site"
-rm -rf _site
-mkdir _site
+#rm -rf _site
+#mkdir _site
 
 # clone remote repo to "_site"
 git clone https://${GH_TOKEN}@github.com/gregVader/gregvader.github.io.git #--branch gh-pages _site
@@ -25,5 +25,5 @@ cd _site
 git config user.email "kgerg13@gmail.com"
 git config user.name "Gergelj Kiš"
 git add --all
-git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
-git push --force origin gh-pages
+git commit -m "Travis #$TRAVIS_BUILD_NUMBER"
+git push origin gh-pages
