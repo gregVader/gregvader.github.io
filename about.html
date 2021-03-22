@@ -1,0 +1,70 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+<div class="container">
+
+  <h4 class="text-center">About me</h4>
+
+  <div class="row justify-content-center">
+    <div class="col col-sm-10 col-md-8 col-lg-6 col-xxl-6">
+      Hi, I'm bla bla bla
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col text-center">
+        <a type="button" href="/assets/files/gergelj_kis_cv.pdf" role="button" class="btn btn-success text-light">
+          <i class="bi bi-file-earmark-arrow-down-fill"></i> Download CV
+        </a>
+    </div>
+  </div>
+
+  <h4 class="text-center mt-5">Contact me</h4>
+
+  <div class="row justify-content-center">
+    <div class="col col-sm-10 col-md-8 col-lg-6 col-xxl-6">
+      <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="" method="post">
+        <fieldset id="fs-frm-inputs">
+          <div class="mb-3">
+            <label for="inputName" class="form-label">Name:</label>
+            <input type="text" name="name" class="form-control" id="inputName" required>
+          </div>
+          <div class="mb-3">
+            <label for="inputEmail" class="form-label">E-mail:</label>
+            <input type="email" class="form-control" id="inputEmail" name="email" placeholder="somebody@example.com" required>
+            <!--<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>-->
+          </div>
+          <div class="mb-3">
+            <label for="inputText" class="form-label">Message:</label>
+            <textarea name="message" class="form-control" id="inputText" rows="3" required></textarea>
+          </div>
+        </fieldset>
+        <input type="submit" class="btn btn-primary" value="Send">
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="/assets/js/polyfills/formdata-polyfill.js"></script>
+<script src="/assets/js/polyfills/promise-polyfill.js"></script>
+<script src="/assets/js/polyfills/whatwg-fetch.js"></script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwLEDTxxSrBK-VfqHrqDSCFThASZ-sIMIKnuRVYorZxFLDovwKE0O_LFNDBBqQOXFBU/exec';
+  const form = document.forms['simple-contact-form']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+          alert('Message sent successfully!');
+          form.reset();
+        })
+      .catch(error => {
+        alert('An error occured');
+        console.log(error);
+        })
+  })
+</script>
