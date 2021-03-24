@@ -1,0 +1,27 @@
+---
+layout: none
+---
+[
+  {% for post in site.posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date }}",
+      "author"   : "{{ post.author }}"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+
+  {% for project in site.projects %}
+    {% if forloop.first %},{% endif %}
+    {
+      "title"    : "{{ project.title | escape }}",
+      "category" : "{{ project.category }}",
+      "tags"     : "{{ project.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ project.url }}",
+      "date"     : "{{ project.date }}",
+      "author"   : "{{ project.author }}"
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
