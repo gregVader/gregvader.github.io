@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         
-            New title!
+            
         
     </title>
 
@@ -47,10 +47,10 @@
           <a class="nav-link " href="/projects"><i class="bi bi-code-slash"></i> Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  active " href="/blog"><i class="bi bi-journal-text"></i> Blog</a>
+          <a class="nav-link " href="/blog"><i class="bi bi-journal-text"></i> Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="/search"><i class="bi bi-search"></i> Search</a>
+          <a class="nav-link  active " href="/search"><i class="bi bi-search"></i> Search</a>
         </li>
         <li class="nav-item">
           <a class="nav-link " href="/about"><i class="bi bi-file-person"></i> About</a>
@@ -61,110 +61,30 @@
 </nav>
 
     <div class="mt-3 mb-5 container">
-        <div class="text-center">
-    <h1>New title!</h1>
-    
-        <h4></h4>
-    
-    <h6 class="text-muted">
-        18 January 2021
-        
-        &#183; Greg
-        
-    </h6>
-</div>
-<hr class="mb-3">
-
-<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes.</p>
-
-<p>You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
-
-
-
-<hr class="mb-3">
-
-<!-- TAGS -->
-<div>
-    
-        
-            
-                <i class="bi bi-tags"></i>
-                <span>tags:</span>
-            
-
-            
-                <span>hobby,</span>
-            
-        
-    
-        
-            
-
-            
-                <span>tech</span>
-            
-        
-    
-</div>
-
-<!-- CATEGORIES -->
-<div class="mb-5">
-    
-        
-            
-                <i class="bi bi-bookmark"></i>
-                <span>categories:</span>
-            
-
-            
-                <span>project,</span>
-            
-        
-    
-        
-            
-
-            
-                <span>blog</span>
-            
-        
-    
-</div>
+        <h3 class="text-center">Search</h3>
 
 <div class="row">
-    <div class="col-6">
-        
-            <span><i class="bi bi-caret-left-fill"></i></span>
-            Previous post
-            <a href="/blog/welcome-to-jekyll-(3rd-copy)"><h5 class="mt-3">New title!</h5></a>
-            <small class="text-muted">18 January 2021</small>
-        
-    </div>
-    <div class="col-6 text-end">
-        
-            Next post
-            <span><i class="bi bi-caret-right-fill"></i></span>
-            <a href="/blog/welcome-to-jekyll-(copy)"><h5 class="mt-3">New title!</h5></a>
-            <small class="text-muted">18 January 2021</small>
-        
+    <div class="col text-center">
+        <input type="text" id="search-input" placeholder="Search blog posts..">
     </div>
 </div>
+<ul class="list-group mt-5" id="results-container"></ul>
+
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+
+<script>
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate:
+        '<a href="{url}" class="list-group-item list-group-item-action">{title} - <span class="text-muted">{category}</span></a>',
+        sortMiddleware: function(a, b) {
+            return a.date < b.date;
+        },
+        limit: 50
+    })
+</script>
     </div>
 </body>
 </html>
