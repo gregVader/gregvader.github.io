@@ -48,11 +48,14 @@ defaults:
       author: Greg
       category: blog
       permalink: "blog/:title"
+      thumbnail: "/assets/img/no_pic.png"
   -
     scope:
       path: ""
       type: "projects"
     values:
+      layout: "post"
+      author: Greg
       permalink: "project/:title"
       thumbnail: "/assets/img/no_pic.png"
       category: project
