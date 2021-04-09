@@ -1,141 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-03-24T11:41:09+00:00</updated><id>/feed.xml</id><title type="html">Gregvader’s blog</title><subtitle>This is my new site description</subtitle><entry><title type="html">A new beggining</title><link href="/blog/a-new-beginning-(3rd-copy)" rel="alternate" type="text/html" title="A new beggining" /><published>2021-03-20T00:00:00+00:00</published><updated>2021-03-20T00:00:00+00:00</updated><id>/blog/a-new-beginning%20(3rd%20copy)</id><content type="html" xml:base="/blog/a-new-beginning-(3rd-copy)">&lt;p&gt;Some content &lt;strong&gt;this is in bold&lt;/strong&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-04-09T22:22:16+00:00</updated><id>/feed.xml</id><title type="html">Gregvader’s blog</title><subtitle>This is my new site description</subtitle><entry><title type="html">First post</title><link href="/blog/first-post" rel="alternate" type="text/html" title="First post" /><published>2021-04-09T10:55:22+00:00</published><updated>2021-04-09T10:55:22+00:00</updated><id>/blog/first-post</id><content type="html" xml:base="/blog/first-post">&lt;p&gt;Hello everyone, this is a side project of mine where I try &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; - a static website generator and here’s the story behind it!&lt;/p&gt;
 
-&lt;p&gt;This will be a table&lt;/p&gt;
+&lt;p&gt;A personal website with blog posts has always been my long-desired wish but everytime I started to create something I got lost in the complexity of my plans. I wanted it to be easily customized and most importantly to be efficient in the way of writing and publishing posts. The idea of hosting a server was a bit too much and it would come with additional charges for hosting etc. On the other hand, creating an account on Wordpress and many alikes would have been a very low effort thing to do in my opinion. So as a result, I found out about this Jekyll tool which turned out to be very satisfying (so far).&lt;/p&gt;
 
-&lt;table class=&quot;u-full-width&quot;&gt;
-    &lt;thead&gt;
-    &lt;tr&gt;
-        &lt;th&gt;Header 1&lt;/th&gt;
-        &lt;th&gt;Header 2&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;/thead&gt;
-    &lt;tbody&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Header 1&lt;/td&gt;
-        &lt;td&gt;Header 2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Greg</name></author><category term="blog" /><category term="beginning" /><category term="hobby" /><summary type="html">Some content this is in bold</summary></entry><entry><title type="html">A new beggining</title><link href="/blog/a-new-beginning-(another-copy)" rel="alternate" type="text/html" title="A new beggining" /><published>2021-03-20T00:00:00+00:00</published><updated>2021-03-20T00:00:00+00:00</updated><id>/blog/a-new-beginning%20(another%20copy)</id><content type="html" xml:base="/blog/a-new-beginning-(another-copy)">&lt;p&gt;Some content &lt;strong&gt;this is in bold&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;this-is-how-it-works&quot;&gt;This is how it works:&lt;/h4&gt;
 
-&lt;p&gt;This will be a table&lt;/p&gt;
+&lt;p&gt;The main feature where Jekyll really stands out is separating the content from the actual website. All I have to do is fill the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder with some text files and off I go! Well - not really - but the real use case is not that different actually. Posts can be written in either HTML and/or markdown (a combination actually works, too). There’s only one limitation that must be checked in every post: a metadata header - Jekyll calls it the &lt;em&gt;front matter&lt;/em&gt;. The metadata enriches each post and provides easier automatization of different things later on.&lt;/p&gt;
 
-&lt;table class=&quot;u-full-width&quot;&gt;
-    &lt;thead&gt;
-    &lt;tr&gt;
-        &lt;th&gt;Header 1&lt;/th&gt;
-        &lt;th&gt;Header 2&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;/thead&gt;
-    &lt;tbody&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Header 1&lt;/td&gt;
-        &lt;td&gt;Header 2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Greg</name></author><category term="blog" /><category term="beginning" /><category term="hobby" /><summary type="html">Some content this is in bold</summary></entry><entry><title type="html">A new beggining</title><link href="/blog/a-new-beginning-(copy)" rel="alternate" type="text/html" title="A new beggining" /><published>2021-03-20T00:00:00+00:00</published><updated>2021-03-20T00:00:00+00:00</updated><id>/blog/a-new-beginning%20(copy)</id><content type="html" xml:base="/blog/a-new-beginning-(copy)">&lt;p&gt;Some content &lt;strong&gt;this is in bold&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&quot;the-project-setup&quot;&gt;The project setup&lt;/h5&gt;
 
-&lt;p&gt;This will be a table&lt;/p&gt;
+&lt;p&gt;A static site generator’s main task is converting a bunch of files of different types into valid html. This means that each post that gets written must end up as a full-on working html page. How does Jekyll achieve this? This is where the project setup comes into the story.&lt;/p&gt;
 
-&lt;table class=&quot;u-full-width&quot;&gt;
-    &lt;thead&gt;
-    &lt;tr&gt;
-        &lt;th&gt;Header 1&lt;/th&gt;
-        &lt;th&gt;Header 2&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;/thead&gt;
-    &lt;tbody&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Header 1&lt;/td&gt;
-        &lt;td&gt;Header 2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Greg</name></author><category term="blog" /><category term="beginning" /><category term="hobby" /><summary type="html">Some content this is in bold</summary></entry><entry><title type="html">A new beggining</title><link href="/blog/a-new-beginning" rel="alternate" type="text/html" title="A new beggining" /><published>2021-03-20T00:00:00+00:00</published><updated>2021-03-20T00:00:00+00:00</updated><id>/blog/a-new-beginning</id><content type="html" xml:base="/blog/a-new-beginning">&lt;p&gt;Some content &lt;strong&gt;this is in bold&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jekyll by default comes with a pre-installed theme. However, since I love creating things my way, I ended up dumping everything and I started from scratch. The main idea behind generating html pages is defining a common layout (or a view) for the same type of objects. In my case I created a common layout for viewing posts. After writing a post, the content of the post (with all the metadata that I defined) gets injected into that layout - wherever I had put their placeholder in the layout. This way Jekyll is able to generate a complete html page. In order to make things even more interesting, a layout can hold the content of another layout (and so on) so this enables to create more complex elements in the webpage.&lt;/p&gt;
 
-&lt;p&gt;This will be a table&lt;/p&gt;
+&lt;p&gt;I spent quite a lot of time fine-tuning every aspect of creating the layouts. I don’t consider myself a web designer at all, so the visual identity of the website might be a bit lacking. All in all everything works as I designed it to work and I’m quite impressed with the capabilities of a static site generator.&lt;/p&gt;
 
-&lt;table class=&quot;u-full-width&quot;&gt;
-    &lt;thead&gt;
-    &lt;tr&gt;
-        &lt;th&gt;Header 1&lt;/th&gt;
-        &lt;th&gt;Header 2&lt;/th&gt;
-    &lt;/tr&gt;
-    &lt;/thead&gt;
-    &lt;tbody&gt;
-    &lt;tr&gt;
-        &lt;td&gt;Header 1&lt;/td&gt;
-        &lt;td&gt;Header 2&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Greg</name></author><category term="blog" /><category term="beginning" /><category term="hobby" /><summary type="html">Some content this is in bold</summary></entry><entry><title type="html">New title!</title><link href="/blog/welcome-to-jekyll-(3rd-copy)" rel="alternate" type="text/html" title="New title!" /><published>2021-01-18T18:50:22+00:00</published><updated>2021-01-18T18:50:22+00:00</updated><id>/blog/welcome-to-jekyll%20(3rd%20copy)</id><content type="html" xml:base="/blog/welcome-to-jekyll-(3rd-copy)">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes.&lt;/p&gt;
+&lt;h4 id=&quot;tutorial&quot;&gt;Tutorial&lt;/h4&gt;
 
-&lt;p&gt;You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;The documentation &lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;website&lt;/a&gt; is surprisingly very helpful so I use it all the time for referencing. For absolute beginners I would recommend Mike Dane’s YouTube channel and the following playlist of videos:&lt;/p&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Greg</name></author><category term="blog" /><category term="hobby" /><category term="tech" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes.</summary></entry><entry><title type="html">New title!</title><link href="/blog/welcome-to-jekyll-(another-copy)" rel="alternate" type="text/html" title="New title!" /><published>2021-01-18T18:50:22+00:00</published><updated>2021-01-18T18:50:22+00:00</updated><id>/blog/welcome-to-jekyll%20(another%20copy)</id><content type="html" xml:base="/blog/welcome-to-jekyll-(another-copy)">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes.&lt;/p&gt;
-
-&lt;p&gt;You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Greg</name></author><category term="blog" /><category term="hobby" /><category term="tech" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes.</summary></entry><entry><title type="html">New title!</title><link href="/blog/welcome-to-jekyll-(copy)" rel="alternate" type="text/html" title="New title!" /><published>2021-01-18T18:50:22+00:00</published><updated>2021-01-18T18:50:22+00:00</updated><id>/blog/welcome-to-jekyll%20(copy)</id><content type="html" xml:base="/blog/welcome-to-jekyll-(copy)">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes.&lt;/p&gt;
-
-&lt;p&gt;You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Greg</name></author><category term="blog" /><category term="hobby" /><category term="tech" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes.</summary></entry><entry><title type="html">New title!</title><link href="/blog/welcome-to-jekyll" rel="alternate" type="text/html" title="New title!" /><published>2021-01-18T18:50:22+00:00</published><updated>2021-01-18T18:50:22+00:00</updated><id>/blog/welcome-to-jekyll</id><content type="html" xml:base="/blog/welcome-to-jekyll">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes.&lt;/p&gt;
-
-&lt;p&gt;You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Greg</name></author><category term="blog" /><category term="hobby" /><category term="tech" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes.</summary></entry></feed>
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col-2&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;col-8&quot;&gt;
+    &lt;iframe width=&quot;100%&quot; height=&quot;300px&quot; src=&quot;https://www.youtube.com/embed/T1itpPvFWHI&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-2&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;</content><author><name>Greg</name></author><category term="blog" /><category term="hobby" /><category term="tech" /><summary type="html">Hello everyone, this is a side project of mine where I try Jekyll - a static website generator and here’s the story behind it!</summary></entry></feed>

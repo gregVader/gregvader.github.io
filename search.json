@@ -1,74 +1,11 @@
 [
   
     {
-      "title"    : "A new beggining",
-      "category" : "blog",
-      "tags"     : "beginning, hobby",
-      "url"      : "/blog/a-new-beginning",
-      "date"     : "2021-03-20 00:00:00 +0000",
-      "author"   : "Greg"
-    } ,
-  
-    {
-      "title"    : "A new beggining",
-      "category" : "blog",
-      "tags"     : "beginning, hobby",
-      "url"      : "/blog/a-new-beginning-(copy)",
-      "date"     : "2021-03-20 00:00:00 +0000",
-      "author"   : "Greg"
-    } ,
-  
-    {
-      "title"    : "A new beggining",
-      "category" : "blog",
-      "tags"     : "beginning, hobby",
-      "url"      : "/blog/a-new-beginning-(another-copy)",
-      "date"     : "2021-03-20 00:00:00 +0000",
-      "author"   : "Greg"
-    } ,
-  
-    {
-      "title"    : "A new beggining",
-      "category" : "blog",
-      "tags"     : "beginning, hobby",
-      "url"      : "/blog/a-new-beginning-(3rd-copy)",
-      "date"     : "2021-03-20 00:00:00 +0000",
-      "author"   : "Greg"
-    } ,
-  
-    {
-      "title"    : "New title!",
+      "title"    : "First post",
       "category" : "blog",
       "tags"     : "hobby, tech",
-      "url"      : "/blog/welcome-to-jekyll",
-      "date"     : "2021-01-18 18:50:22 +0000",
-      "author"   : "Greg"
-    } ,
-  
-    {
-      "title"    : "New title!",
-      "category" : "blog",
-      "tags"     : "hobby, tech",
-      "url"      : "/blog/welcome-to-jekyll-(copy)",
-      "date"     : "2021-01-18 18:50:22 +0000",
-      "author"   : "Greg"
-    } ,
-  
-    {
-      "title"    : "New title!",
-      "category" : "blog",
-      "tags"     : "hobby, tech",
-      "url"      : "/blog/welcome-to-jekyll-(another-copy)",
-      "date"     : "2021-01-18 18:50:22 +0000",
-      "author"   : "Greg"
-    } ,
-  
-    {
-      "title"    : "New title!",
-      "category" : "blog",
-      "tags"     : "hobby, tech",
-      "url"      : "/blog/welcome-to-jekyll-(3rd-copy)",
-      "date"     : "2021-01-18 18:50:22 +0000",
+      "url"      : "/blog/first-post",
+      "date"     : "2021-04-09 10:55:22 +0000",
       "author"   : "Greg"
     } 
   
@@ -81,7 +18,7 @@
       "tags"     : "Java, JavaScript",
       "url"      : "/project/hesoyam_pharmacy-copy-2",
       "date"     : "2020-11-19 00:00:00 +0000",
-      "author"   : ""
+      "author"   : "Greg"
     },
   
     
@@ -91,7 +28,7 @@
       "tags"     : "Java, JavaScript",
       "url"      : "/project/hesoyam_pharmacy-copy-3",
       "date"     : "2020-11-19 00:00:00 +0000",
-      "author"   : ""
+      "author"   : "Greg"
     },
   
     
@@ -101,7 +38,7 @@
       "tags"     : "Java, JavaScript",
       "url"      : "/project/hesoyam_pharmacy-copy-4",
       "date"     : "2020-11-19 00:00:00 +0000",
-      "author"   : ""
+      "author"   : "Greg"
     },
   
     
@@ -111,7 +48,7 @@
       "tags"     : "Java, JavaScript",
       "url"      : "/project/hesoyam_pharmacy-copy",
       "date"     : "2020-11-19 00:00:00 +0000",
-      "author"   : ""
+      "author"   : "Greg"
     },
   
     
@@ -121,7 +58,7 @@
       "tags"     : "Java, JavaScript",
       "url"      : "/project/hesoyam_pharmacy",
       "date"     : "2020-11-19 00:00:00 +0000",
-      "author"   : ""
+      "author"   : "Greg"
     }
   
 ]
