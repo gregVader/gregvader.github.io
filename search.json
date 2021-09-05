@@ -16,48 +16,18 @@
       "title"    : "Hesoyam Pharmacy",
       "category" : "project",
       "tags"     : "Java, JavaScript",
-      "url"      : "/project/hesoyam_pharmacy-copy-2",
+      "url"      : "/project/hesoyam-pharmacy",
       "date"     : "2020-11-19 00:00:00 +0000",
       "author"   : "Greg"
     },
   
     
     {
-      "title"    : "Hesoyam Pharmacy",
+      "title"    : "Internship in NovaLite",
       "category" : "project",
-      "tags"     : "Java, JavaScript",
-      "url"      : "/project/hesoyam_pharmacy-copy-3",
-      "date"     : "2020-11-19 00:00:00 +0000",
-      "author"   : "Greg"
-    },
-  
-    
-    {
-      "title"    : "Hesoyam Pharmacy",
-      "category" : "project",
-      "tags"     : "Java, JavaScript",
-      "url"      : "/project/hesoyam_pharmacy-copy-4",
-      "date"     : "2020-11-19 00:00:00 +0000",
-      "author"   : "Greg"
-    },
-  
-    
-    {
-      "title"    : "Hesoyam Pharmacy",
-      "category" : "project",
-      "tags"     : "Java, JavaScript",
-      "url"      : "/project/hesoyam_pharmacy-copy",
-      "date"     : "2020-11-19 00:00:00 +0000",
-      "author"   : "Greg"
-    },
-  
-    
-    {
-      "title"    : "Hesoyam Pharmacy",
-      "category" : "project",
-      "tags"     : "Java, JavaScript",
-      "url"      : "/project/hesoyam_pharmacy",
-      "date"     : "2020-11-19 00:00:00 +0000",
+      "tags"     : "Scala, Vuejs, MySQL",
+      "url"      : "/project/social-network-scala",
+      "date"     : "2021-03-12 00:00:00 +0000",
       "author"   : "Greg"
     }
   
