@@ -15,8 +15,13 @@ permalink: /about/
   </div>
   <div class="row mt-3">
     <div class="col text-center">
-        <a type="button" href="/assets/files/gergelj_kis_cv.pdf" role="button" class="btn btn-success text-light">
-          <i class="bi bi-file-earmark-arrow-down-fill"></i> Download CV
+      <!--
+        <a type="button" href="/assets/files/gergelj_kis_cv_eng.pdf" role="button" class="btn btn-success text-light">
+          <i class="bi bi-file-earmark-arrow-down-fill"></i> Download CV (English)
+        </a>
+      -->
+        <a type="button" href="/assets/files/gergelj_kis_cv.pdf" role="button" target="_blank" class="btn btn-success text-light">
+          <i class="bi bi-file-earmark-arrow-down-fill"></i> Download CV (Srpski)
         </a>
     </div>
   </div>
@@ -34,7 +39,6 @@ permalink: /about/
           <div class="mb-3">
             <label for="inputEmail" class="form-label">E-mail:</label>
             <input type="email" class="form-control" id="inputEmail" name="email" placeholder="somebody@example.com" required>
-            <!--<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>-->
           </div>
           <div class="mb-3">
             <label for="inputText" class="form-label">Message:</label>
@@ -45,6 +49,18 @@ permalink: /about/
       </form>
     </div>
   </div>
+
+  <h4 class="text-center mt-5">... or get in touch</h4>
+
+  <div class="row justify-content-center">
+    <div class="col col-sm-10 col-md-8 col-lg-6 col-xxl-6 text-center">
+      <a href="{{site.linkedin}}" class="text-dark" title="LinkedIn" target="_blank"><i class="bi bi-linkedin" style="font-size: xx-large;" aria-label="LinkedIn"></i></a>
+      <a href="{{site.instagram}}" class="text-dark" title="Instagram" target="_blank"><i class="bi bi-instagram" style="font-size: xx-large;" aria-label="Instagram"></i></a>
+      <a href="{{site.facebook}}" class="text-dark" title="Facebook" target="_blank"><i class="bi bi-facebook" style="font-size: xx-large;" aria-label="Facebook"></i></a>
+      <a href="{{site.github}}" class="text-dark" title="Github" target="_blank"><i class="bi bi-github" style="font-size: xx-large;" aria-label="Github"></i></a>
+    </div>
+  </div>
+
 </div>
 
 <script src="/assets/js/polyfills/formdata-polyfill.js"></script>

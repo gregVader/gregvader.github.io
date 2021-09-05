@@ -20,7 +20,7 @@ git clone https://${GH_TOKEN}@github.com/gregVader/gregvader.github.io.git --bra
 
 cd gregvader.github.io
 # build with Jekyll into "_site"
-gem install bundler:2.2.14
+gem install bundler:2.2.27
 bundle exec jekyll build
 
 cd ../../
