@@ -5,6 +5,7 @@ subject: ISA
 tags: Java JavaScript
 layout: post
 thumbnail: "/assets/img/thumbs/2020-11-19-hesoyam-pharmacy.jpg"
+source: https://github.com/HesoyamGroup/Hesoyam-Pharmacy
 ---
 
 Hesoyam Pharmacy is a pharmaceutical information system that creates a complex network between multiple pharmacies.
