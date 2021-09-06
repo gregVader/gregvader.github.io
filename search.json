@@ -13,6 +13,16 @@
   
     ,
     {
+      "title"    : "PSO Algorithm simulator",
+      "category" : "project",
+      "tags"     : "Vuejs",
+      "url"      : "/project/pso-algorithm",
+      "date"     : "2020-10-15 00:00:00 +0000",
+      "author"   : "Greg"
+    },
+  
+    
+    {
       "title"    : "Hesoyam Pharmacy",
       "category" : "project",
       "tags"     : "Java, JavaScript",
@@ -28,6 +38,16 @@
       "tags"     : "Scala, Vuejs, MySQL",
       "url"      : "/project/social-network-scala",
       "date"     : "2021-03-12 00:00:00 +0000",
+      "author"   : "Greg"
+    },
+  
+    
+    {
+      "title"    : "Triple-Tac-Toe",
+      "category" : "project",
+      "tags"     : "Go, Vuejs",
+      "url"      : "/project/triple-tac-toe",
+      "date"     : "2021-07-25 00:00:00 +0000",
       "author"   : "Greg"
     }
   
