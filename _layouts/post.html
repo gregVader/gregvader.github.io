@@ -13,8 +13,27 @@ layout: home
         &#183; {{page.author}}
         {% endunless %}
     </h6>
+    <h6>
+        {% if page.source %}
+        <a href="{{page.source}}" target="_blank">
+            <i class="bi bi-file-code-fill" aria-label="source"></i>
+            source code
+        </a>
+        {% endif %}
+        {% if page.source and page.website %}
+        &#183;
+        {% endif %}
+        {% if page.website %}
+        <a href="{{page.website}}" target="_blank">
+            <i class="bi bi-globe" aria-label="website"></i>
+            website
+        </a>
+        {% endif %}
+    </h6>
 </div>
 <hr class="mb-3">
+
+
 
 {{content}}
 
